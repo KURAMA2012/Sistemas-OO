@@ -20,7 +20,7 @@ public class Profissional {
 		return cpf;
 	}
 
-	public void setCpf(String cpf) {
+	public final void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
 
